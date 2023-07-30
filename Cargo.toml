@@ -3,6 +3,11 @@ name = "ft2232-sniffer"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+serialport = "4.2.1"
+clap = { version = "4.3.19", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+tokio-serial = "5.4.4"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.7.6"
+anyhow = "1.0"

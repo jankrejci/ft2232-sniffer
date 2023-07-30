@@ -1,0 +1,10 @@
+[[devices]]
+path = "/dev/ttyUSB2"
+name = "TX"
+baudrate = 12000000
+
+[[devices]]
+path = "/dev/ttyUSB3"
+name = "RX"
+baudrate = 12000000
+
